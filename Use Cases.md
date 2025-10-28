@@ -10,3 +10,7 @@
 | UC-6 | Monitor System Health | A system maintainer checks a dashboard to see the current status of the system, including how many users are active and if there are any errors. |
 | UC-7 | Integrate New Data Source | An administrator adds a new external system to the platform. The new source is connected without changes to the core logic of the system. |
 | UC-8 | Securely Login | A user provides their university credentials to log in. The system verifies their identity and role, then gives the appropriate interface and permissions. |
+
+
+<img width="577" height="661" alt="image" src="https://github.com/user-attachments/assets/dceb1c04-f357-4e70-9a6c-ce18bb61d7af" />
+
