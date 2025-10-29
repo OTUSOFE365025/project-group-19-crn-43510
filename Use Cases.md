@@ -12,5 +12,5 @@
 | UC-8 | Securely Login | A user provides their university credentials to log in. The system verifies their identity and role, then gives the appropriate interface and permissions. |
 
 
-<img width="577" height="661" alt="image" src="https://github.com/user-attachments/assets/dceb1c04-f357-4e70-9a6c-ce18bb61d7af" />
+<img width="596" height="674" alt="image" src="https://github.com/user-attachments/assets/87abcea3-9a7f-4018-baa7-84f951008529" />
 
