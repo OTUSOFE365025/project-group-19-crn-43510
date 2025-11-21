@@ -1,0 +1,47 @@
+# Iteration 2
+
+## Step 1: Review Inputs
+**Objective:** Select the drivers from the previous iteration that haven't been fully addressed
+
+### Use Cases
+**UC-8 Securely Login**
+A user provides their university credentials to log in. The system verifies their identity and role, then gives the appropriate interface and permissions.
+
+### Quality Attributes
+**QA-1 Performance**  
+5,000 students log in and start asking questions at the same time at the beginning of a semester. The system successfully handles all requests and gives answers within 2 seconds.
+
+### Constraints
+**CON-2**  
+The system needs to be available for all users around 99.5% of the time every month.
+
+### Concerns
+**CRN-5**  
+Creating the system with high performance, with the response time taking within about 2 seconds.
+
+## Step 2: Establish the iteration goal by selecting drivers
+
+- **UC-8:** Build a secure login system. Make sure only authorized users can access the system
+- **QA-1:** Handle 5,000 users at once. Design the system so it can support many students asking questions simultaneously without slowing down
+- **CON-2:** Keep the system running reliably. Ensure the platform is available almost all the time
+- **CRN-5:** Make the system fast. Implement strategies to keep response times quick, especially during busy periods
+
+## Step 3: Choose one or more elements of the system to refine
+We want to refine the entire AIDAP system.
+
+## Step 4: Choose one or more design concepts that satisfy the selected drivers
+
+- **Web Application Architecture** - Browser-based system that works on any device without downloads. Uses scalable web servers and load balancing to handle 5000 users.
+- **Domain Model Design** - Defines system objects and their relationships. Provides foundation for secure login and role-based permissions.
+- **Layered Architecture** - Organizes system into separate presentation, business logic, and data layers. Enables performance optimization through targeted caching and independent scaling
+- **Rich Client Architecture** - Web interface with offline capabilities. Allows drafting announcements and accessing cached data when an internet connection is not available.
+
+## Step 5: Instantiate architectural elements, allocate responsibilities and define interfaces
+
+| Design Concept | Rationale |
+|---------------|-----------|
+| **Authentication Service** | Connects directly to the university's login system to verify users and control what they can access based on their role |
+| **Load Balancer & Auto-scaling** | Splits the load from thousands of simultaneous users across multiple servers and automatically adds more computing power when things get busy. |
+| **Caching Layer** | Keeps often-requested data in super-fast memory, so the system doesn't have to repeatedly ask the main database, making everything feel quicker. |
+| **API Gateway with Circuit Breaker** | Acts as the main front door for all requests. It blocks traffic spikes and cuts off broken services so a failure in one part doesn't crash the whole system. |
+| **Health Monitoring Service** | Constantly watches all the system's parts and can automatically switch to backups if something stops working, keeping the platform running smoothly. |
