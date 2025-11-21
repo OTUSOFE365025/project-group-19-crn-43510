@@ -45,3 +45,17 @@ We want to refine the entire AIDAP system.
 | **Caching Layer** | Keeps often-requested data in super-fast memory, so the system doesn't have to repeatedly ask the main database, making everything feel quicker. |
 | **API Gateway with Circuit Breaker** | Acts as the main front door for all requests. It blocks traffic spikes and cuts off broken services so a failure in one part doesn't crash the whole system. |
 | **Health Monitoring Service** | Constantly watches all the system's parts and can automatically switch to backups if something stops working, keeping the platform running smoothly. |
+
+## Step 6: Sketch Views and Record Design Decisions
+Initial Object Model:
+<img width="589" height="460" alt="Screenshot 2025-11-20 231707" src="https://github.com/user-attachments/assets/4abe4e2b-4202-47c6-a884-e62812230616" />
+
+Domain Objects Associated with the Use Case Model
+<img width="649" height="727" alt="Screenshot 2025-11-20 231752" src="https://github.com/user-attachments/assets/96dea87f-4678-4c6a-b390-530a5f811f5f" />
+
+Modules that Support the Primary Use Case
+<img width="1194" height="732" alt="Screenshot 2025-11-20 230145" src="https://github.com/user-attachments/assets/910a4c0d-acf7-4614-8392-f88bdf1230a1" />
+
+Sequence Diagram for UC-1:
+<img width="1551" height="589" alt="Screenshot 2025-11-20 205155" src="https://github.com/user-attachments/assets/3b1652ff-b9f7-4dcf-b40a-a18fdfbb36f7" />
+
