@@ -71,6 +71,19 @@ Rich Client with Microservices Diagram
 Deployment Diagram
 <img width="1537" height="716" alt="Screenshot 2025-11-20 203119" src="https://github.com/user-attachments/assets/7c58e175-8852-44bb-ba90-8e3b4eea9f38" />
 
+Table Describing deployment diagram elements:
+## Deployment Architecture Elements and Descriptions
+
+| Element | Type | Description / Responsibilities |
+| :--- | :--- | :--- |
+| **User Workstation** | Node | Represents the client device where the Rich Client Application runs (Web Browser, Mobile App, Voice App). Manages the Offline Cache for local data |
+| **API Gateway & Load Balancer** | Node | The system's edge layer. It acts as the primary entry point, performs routing, initial authentication checks, and distributes high load across the Microservices Cluster |
+| **Microservices Cluster** | Node | The scalable runtime environment hosting all independent services which is designed to allow auto-scaling and ensure high availability |
+| **Authentication Service** | Artifact | Verifies user credentials and manages role-based access before directing traffic to the appropriate service |
+| **Conversational AI Service** | Artifact | Hosts the AI models responsible for processing natural language queries and generating answers |
+| **Caching Layer** | Node | A fast in-memory store used to cache frequently requested data, reducing database hits and improving response time |
+| **Database Layer** | Node | The persistent storage system for data specific to the application |
+| **University Systems** | External Node | External systems (LMS, Calendar, Registration) that are relied upon for source data. The AIDAP system integrates with these externally deployed and managed systems |
 
 
 ## Step 7: Requirements Coverage Analysis
