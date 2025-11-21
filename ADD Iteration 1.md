@@ -57,6 +57,8 @@ We want to refine the entire AIDAP system.
 | **Announcement Service** | Handles the creation, drafting, and posting of the course and other announcements |
 
 ## Step 6: 
+<img width="611" height="643" alt="image" src="https://github.com/user-attachments/assets/d3756f9f-30cd-4d69-bc7d-684fd43eec4a" />
+
 
 ## Step 7: Requirements Coverage Analysis
 
