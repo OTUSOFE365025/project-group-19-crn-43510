@@ -57,11 +57,10 @@ Domain Objects Associated with the Use Case Model:
 Modules that Support the Primary Use Case:
 <img width="1194" height="732" alt="Screenshot 2025-11-20 230145" src="https://github.com/user-attachments/assets/910a4c0d-acf7-4614-8392-f88bdf1230a1" />
 
-Sequence Diagram for UC-1:
+Sequence Diagram for UC-8:
 
 <img width="638" height="314" alt="Screenshot 2025-11-20 234053" src="https://github.com/user-attachments/assets/f39f7565-cddf-4b3d-9b19-4eee489d738c" />
 
-Table to describe the methods for each element in the sequence diagram
 ## Methods / Responsibilities for UC-8 Secure Login Sequence Diagram
 
 | **Element** | **Method / Responsibility** | **Description** |
