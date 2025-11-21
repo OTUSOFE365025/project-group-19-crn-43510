@@ -71,7 +71,6 @@ Rich Client with Microservices Diagram
 Deployment Diagram
 <img width="1537" height="716" alt="Screenshot 2025-11-20 203119" src="https://github.com/user-attachments/assets/7c58e175-8852-44bb-ba90-8e3b4eea9f38" />
 
-Table Describing deployment diagram elements:
 ## Deployment Architecture Elements and Descriptions
 
 | Element | Type | Description / Responsibilities |
