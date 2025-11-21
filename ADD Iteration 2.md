@@ -48,6 +48,7 @@ We want to refine the entire AIDAP system.
 
 ## Step 6: Sketch Views and Record Design Decisions
 Initial Object Model:
+
 <img width="589" height="460" alt="Screenshot 2025-11-20 231707" src="https://github.com/user-attachments/assets/4abe4e2b-4202-47c6-a884-e62812230616" />
 
 Domain Objects Associated with the Use Case Model
