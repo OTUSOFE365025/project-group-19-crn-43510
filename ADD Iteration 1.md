@@ -27,6 +27,11 @@
 - **Constraints**: CON-1, CON-2
 - **Concerns**: CRN-1, CRN-5
 
+Context Diagram:
+
+<img width="744" height="486" alt="Screenshot 2025-11-20 231401" src="https://github.com/user-attachments/assets/2b121fde-ef71-403d-8212-24faee059c65" />
+
+
 ## Step 3: Refinement Scope
 We want to refine the entire AIDAP system.
 
@@ -57,7 +62,13 @@ We want to refine the entire AIDAP system.
 | **Announcement Service** | Handles the creation, drafting, and posting of the course and other announcements |
 
 ## Step 6: 
+Rich Client with Microservices Diagram
+
 <img width="611" height="643" alt="image" src="https://github.com/user-attachments/assets/d3756f9f-30cd-4d69-bc7d-684fd43eec4a" />
+
+Deployment Diagram
+<img width="1537" height="716" alt="Screenshot 2025-11-20 203119" src="https://github.com/user-attachments/assets/7c58e175-8852-44bb-ba90-8e3b4eea9f38" />
+
 
 
 ## Step 7: Requirements Coverage Analysis
