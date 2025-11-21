@@ -56,10 +56,12 @@ We want to refine the entire AIDAP system.
 | Component | Responsibilities |
 |-----------|------------------|
 | **Rich Client Application** | Manages conversational UI for different devices, stores frequently asked questions, allows some offline access to draft announcements |
-| **Conversational AI Service** | Understands questions asked by user, handles different languages to process queries |
+| **Conversational AI Service** | Understands questions asked by the user, handles different languages to process queries |
 | **Data Integration Service** | Gets data from various university systems to optimize data-driven queries |
 | **Authentication Service** | Checks the credentials and confirms the role of the user and manages permissions based on the role |
 | **Announcement Service** | Handles the creation, drafting, and posting of the course and other announcements |
+| **API Gateway and Load Balancer** | Serves as the system's external entry point and handles request routing and distributing high loads across the microservices cluster |
+| **Notification Service** | Handles the push or email distribution of real time alerts and announcements to users |
 
 ## Step 6: 
 Rich Client with Microservices Diagram
