@@ -109,3 +109,5 @@ The caching mechanism stores common translations of words and phrases and multip
 
 
 # ATAM Risk Assessment Table
+
+# ATAM Utility Tree
