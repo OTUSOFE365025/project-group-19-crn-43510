@@ -103,11 +103,20 @@ The Data filtering and masking services are designed to use strict role-based ac
 **N3: Caching mechanism improves frequent translation performance**  
 The caching mechanism stores common translations of words and phrases and multiple academic terminologies so that frequently asked questions can be quickly answered in all types of languages, without the need to repeatedly translate them.
 
-
-
-
-
-
 # ATAM Risk Assessment Table
+| Analysis Scenario | Translation Service Failure During Peak Load |
+|---|---|
+| **Scenario** | During peak usage the translation service experiences high latency or failure while students are asking questions in multiple languages |
+| **Attributes** | Usability, Performance, Reliability |
+| **Stimulus** | The Language Detection & Translation Service becomes overloaded and cannot process requests within 2 seconds |
+| **Environment** | Peak operation with 5,000 simultaneous users|
+| **Response** | The system must detect the translation service degradation and maintain responses within 2 seconds, either through fallback mechanisms or degraded translation quality. |
+
+| Architecture Decision | Sensitivity | Tradeoff | Risk | Nonrisk |
+|---|---|---|---|---|
+| AD1 - Microservices Architecture with Separate Translation Service | S1, S5 | T3 | R1 | N1 |
+| AD2 - Multi-language AI Service with Context Management | S2 | T4 | R2 | - |
+| AD3 - Data Filter & Masking Service | S3 | T2 | R3 | N2 |
+| AD4 - Translation Caching Mechanism | S5 | T5 | - | N3 |
 
 # ATAM Utility Tree
