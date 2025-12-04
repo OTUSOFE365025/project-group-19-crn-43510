@@ -120,3 +120,5 @@ The caching mechanism stores common translations of words and phrases and multip
 | AD4 - Translation Caching Mechanism | S5 | T5 | - | N3 |
 
 # ATAM Utility Tree
+<img width="1135" height="665" alt="image" src="https://github.com/user-attachments/assets/9cf32471-16f9-462c-b42a-29822440eca6" />
+
